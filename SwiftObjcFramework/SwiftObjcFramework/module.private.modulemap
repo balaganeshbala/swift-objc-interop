@@ -1,0 +1,12 @@
+//
+//  module.modulemap
+//  SwiftObjcFramework
+//
+//  Created by Balaganesh S on 10/07/24.
+//
+
+framework module SwiftObjcFramework_Private {
+    header "InternalObjcClass.h"
+    
+    export *
+}

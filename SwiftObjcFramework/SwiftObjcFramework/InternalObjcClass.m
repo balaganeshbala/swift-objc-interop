@@ -6,12 +6,7 @@
 //
 
 #import "InternalObjcClass.h"
-
-@interface InternalSwiftClass : NSObject
-
-- (void)testFunction;
-
-@end
+#import "InternalSwiftClass.h"
 
 @interface InternalObjcClass()
 
@@ -32,6 +27,7 @@
 
 - (void)testFunction {
     NSLog(@"testFunction in InternalObjcClass called");
+    NSLog(@"%@", self.swiftInstance.name);
     [self.swiftInstance testFunction];
 }
 

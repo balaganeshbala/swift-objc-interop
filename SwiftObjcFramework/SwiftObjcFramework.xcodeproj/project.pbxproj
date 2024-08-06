@@ -12,6 +12,7 @@
 		DC91B4A12C3E9C5500E6029F /* InternalObjcClass.h in Headers */ = {isa = PBXBuildFile; fileRef = DC91B49F2C3E9C5500E6029F /* InternalObjcClass.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		DC91B4A22C3E9C5500E6029F /* InternalObjcClass.m in Sources */ = {isa = PBXBuildFile; fileRef = DC91B4A02C3E9C5500E6029F /* InternalObjcClass.m */; };
 		DC91B4A42C3E9D3A00E6029F /* InternalSwiftClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC91B4A32C3E9D3A00E6029F /* InternalSwiftClass.swift */; };
+		DCAF0B952C61F2A9008904B1 /* InternalSwiftClass.h in Headers */ = {isa = PBXBuildFile; fileRef = DCAF0B942C61F2A9008904B1 /* InternalSwiftClass.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		DC91B4A32C3E9D3A00E6029F /* InternalSwiftClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InternalSwiftClass.swift; sourceTree = "<group>"; };
 		DC91B4A52C3E9FEE00E6029F /* module.modulemap */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; path = module.modulemap; sourceTree = "<group>"; };
 		DC91B4B52C3FDC6D00E6029F /* module.private.modulemap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = module.private.modulemap; sourceTree = "<group>"; };
+		DCAF0B942C61F2A9008904B1 /* InternalSwiftClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InternalSwiftClass.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				DC91B49D2C3E9B5900E6029F /* PublicSwiftClass.swift */,
 				DC91B49F2C3E9C5500E6029F /* InternalObjcClass.h */,
 				DC91B4A02C3E9C5500E6029F /* InternalObjcClass.m */,
+				DCAF0B942C61F2A9008904B1 /* InternalSwiftClass.h */,
 				DC91B4A32C3E9D3A00E6029F /* InternalSwiftClass.swift */,
 				DC91B4A52C3E9FEE00E6029F /* module.modulemap */,
 				DC91B4B52C3FDC6D00E6029F /* module.private.modulemap */,
@@ -75,6 +78,7 @@
 			files = (
 				DC91B48B2C3E9AFC00E6029F /* SwiftObjcFramework.h in Headers */,
 				DC91B4A12C3E9C5500E6029F /* InternalObjcClass.h in Headers */,
+				DCAF0B952C61F2A9008904B1 /* InternalSwiftClass.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
